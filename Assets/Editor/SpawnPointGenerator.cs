@@ -3,6 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//TODO: FIX HARDCODED VALUES
 public static class SpawnPointGenerator
 {
     [MenuItem("Level/Generate level spawn points")]
