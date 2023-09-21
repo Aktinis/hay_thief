@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonoUtilityService : MonoBehaviour, IMonoUtilityService
+public sealed class MonoUtilityService : MonoBehaviour, IMonoUtilityService
 {
     private List<Action> cachedActions = new List<Action>();
 

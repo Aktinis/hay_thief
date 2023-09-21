@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EndScreen : BaseScreen<EndScreen, EndScreenMessage>
+public sealed class EndScreen : BaseScreen<EndScreen, EndScreenMessage>
 {
     [SerializeField] private Button continueButton;
     [SerializeField] private Button exitButton;

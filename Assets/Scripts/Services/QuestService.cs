@@ -1,4 +1,4 @@
-public class QuestService : IQuestService
+public sealed class QuestService : IQuestService
 {
     private int goal = 0;
     private int progress = 0;

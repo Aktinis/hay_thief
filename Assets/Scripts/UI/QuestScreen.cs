@@ -2,7 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class QuestScreen : BaseScreen<QuestScreen, QuestScreenMessage>
+public sealed class QuestScreen : BaseScreen<QuestScreen, QuestScreenMessage>
 {
     [SerializeField] private TextMeshProUGUI text = null;
 
