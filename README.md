@@ -1,5 +1,5 @@
 # hay_thief
-**Work in progress portfolio piece. Made with Unity.**
+**Work in progress portfolio piece. Made with Unity.**  
 *Commit history isn't included, because project was migrated from private repository which has paid assets*
 
 ![1](showcase_1.gif)
