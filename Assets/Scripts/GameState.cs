@@ -143,7 +143,11 @@ public sealed class GameState
             runUpdate = false;
             visualController.Reset();
             UIManager.Close<QuestScreen>();
-            UIManager.Open<EndScreen>(new EndScreenMessage(true));
+            monoUtilityService.StartDelayedCoroutine(() => 
+            { 
+                UIManager.Open<EndScreen>(new EndScreenMessage(true)); 
+            }, 1f);
+
         }
     }
 
