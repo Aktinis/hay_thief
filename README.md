@@ -2,8 +2,8 @@
 **Work in progress portfolio piece. Made with Unity.**
 *Commit history isn't included, because project was migrated from private repository which has paid assets*
 
-![1](showcase_1)
-![2](showcase_2)
+![1](showcase_1.gif)
+![2](showcase_2.gif)
 
 
 **Free assets that are used in project:**
